@@ -11929,6 +11929,60 @@ nav {
   display: flex;
   gap: 50px;
   background-color: #fffaf3;
+  padding-top: 50px;
+}
+
+.leabout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+.leabout h2::after, .leabout .h2::after {
+  content: "Our Restaurant";
+  color: rgb(255, 176, 59);
+}
+
+.leaboutmin1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vh;
+}
+.leaboutmin1 p {
+  text-align: center;
+}
+
+.leabb {
+  display: flex;
+  gap: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 30px;
+}
+
+.lili {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  padding-top: 40px;
+  transition: 0.5s;
+}
+.lili h1, .lili .h1 {
+  color: #ffb03b;
+}
+.lili:hover {
+  padding-top: 10px;
+  background-color: #ffb03b;
+  color: #fff;
+}
+.lili:hover h1, .lili:hover .h1 {
+  color: #fff;
+}
+.lili:hover h4, .lili:hover .h4 {
+  color: #fff;
+}
+.lili:hover p {
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
