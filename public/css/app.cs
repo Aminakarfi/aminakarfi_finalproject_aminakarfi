@@ -11845,7 +11845,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#disdis {
+.disdis {
   display: flex;
   gap: 50px;
   background-color: #fffaf3;
@@ -11986,4 +11986,4 @@ nav {
   font-style: normal;
 }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=app.cs.map */
