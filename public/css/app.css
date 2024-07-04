@@ -1,10 +1,14 @@
 @charset "UTF-8";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@font-face {
+  font-family: face;
+  src: url(../fonts/Satisfy-Regular.ttf);
+}
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11859,7 +11863,7 @@ textarea.form-control-lg {
   padding-top: 90px;
 }
 .leabout h2::after, .leabout .h2::after {
-  content: "Our Restaurant";
+  content: "Event";
   color: rgb(255, 176, 59);
 }
 
@@ -11984,6 +11988,102 @@ nav {
   font-family: "Satisfy", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+section {
+  background-image: url(../img/events-bg.jpg);
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 50px;
+  height: 92vh;
+}
+section h2, section .h2 {
+  font-family: face;
+  text-align: center;
+}
+section h2 span, section .h2 span {
+  color: #ffb03b;
+}
+
+.space {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.get {
+  display: flex;
+  gap: 40px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bord {
+  border-bottom: 2px solid orange;
+}
+
+.inputclass {
+  padding: 5vh 2vw;
+}
+.inputclass form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.inputclass form .inp1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+.inputclass form .inp1 input {
+  width: 28vw;
+  padding: 1vh 1vw;
+}
+.inputclass form textarea {
+  width: 88vw;
+  padding: 1vh 1vw;
+}
+.inputclass .inin2 {
+  text-align: center;
+}
+.inputclass .inin2 button {
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 20px;
+  background-color: rgba(255, 160, 18, 0.897);
+  border: none;
+}
+.inputclass .inin2 button:hover {
+  background-color: rgb(255, 160, 18);
+}
+
+.sip {
+  padding-top: 50px;
+  text-align: center;
+  font-family: face;
+}
+.sip span {
+  color: #ffb03b;
+}
+
+.sipp {
+  text-align: center;
+}
+
+.get h4, .get .h4 {
+  font-family: face;
+}
+
+.inputclass form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px 10px;
 }
 
 /*# sourceMappingURL=app.css.map */
