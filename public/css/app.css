@@ -11918,6 +11918,22 @@ textarea.form-control-lg {
   color: white;
 }
 
+@media (max-width: 428px) {
+  .leabb {
+    display: flex;
+    flex-direction: column;
+  }
+  #home-i img {
+    height: 700px;
+  }
+  #disdis {
+    display: flex;
+    flex-direction: column;
+  }
+  #disdis video {
+    width: 425px;
+  }
+}
 nav {
   background: rgba(0, 0, 0, 0.3);
   display: flex;
@@ -12038,6 +12054,12 @@ nav {
   color: orange;
 }
 
+@media (max-width: 428px) {
+  .menu1 {
+    display: flex;
+    flex-direction: row;
+  }
+}
 #SPEC1 {
   padding: 50px 0;
 }
@@ -12455,6 +12477,13 @@ footer .d2 .d1:hover {
 }
 .bigmenu span {
   color: orange;
+}
+
+@media (max-width: 428px) {
+  .menu1 {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
