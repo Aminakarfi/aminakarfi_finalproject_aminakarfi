@@ -12147,14 +12147,15 @@ section h2 span, section .h2 span {
 }
 
 .grand {
-  width: 80vw;
+  width: 90vw;
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 15vw;
 }
 .grand .copy {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 10px;
 }
 .grand .copy i {
   border-radius: 50%;
@@ -12172,11 +12173,13 @@ section h2 span, section .h2 span {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 30px;
   padding-right: 50px;
   padding-left: 50px;
 }
 .full2 .fullfi {
   display: flex;
+  flex-direction: column;
   gap: 2vw;
 }
 .full2 .fullfi textarea {
@@ -12187,7 +12190,6 @@ section h2 span, section .h2 span {
 .formf {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 2vh;
 }
 .formf input {
@@ -12212,6 +12214,47 @@ section h2 span, section .h2 span {
   border: none;
 }
 .buttbut button:hover {
+  background-color: rgb(255, 160, 18);
+}
+
+footer {
+  background-color: rgb(53, 50, 45);
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer p {
+  color: white;
+}
+footer .f3 span {
+  color: rgb(255, 160, 18);
+}
+footer h1, footer .h1 {
+  text-align: center;
+  color: rgb(255, 160, 18);
+}
+footer p {
+  text-align: center;
+}
+footer .d2 {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+footer .d2 .d1 {
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: gray;
+  transition: 0.3s;
+}
+footer .d2 .d1:hover {
   background-color: rgb(255, 160, 18);
 }
 
