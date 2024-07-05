@@ -11999,6 +11999,34 @@ nav {
   font-style: normal;
 }
 
+#SPEC1 {
+  padding: 50px 0;
+}
+#SPEC1 h2, #SPEC1 .h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+  text-align: center;
+}
+#SPEC1 h2 span, #SPEC1 .h2 span {
+  color: #ffb03b;
+}
+#SPEC1 .p1 {
+  text-align: center;
+  font-size: 17px;
+}
+#SPEC1 h3, #SPEC1 .h3 {
+  font-family: "Satisfy", cursive;
+}
+#SPEC1 a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 20px;
+}
+#SPEC1 a:hover {
+  color: #ffb03b;
+}
+
 section {
   background-image: url(../img/events-bg.jpg);
   background-attachment: fixed;
@@ -12297,6 +12325,34 @@ footer .d2 .d1:hover {
   border-radius: 50%;
   text-align: center;
   margin: auto;
+}
+
+#SPEC1 {
+  padding: 50px 0;
+}
+#SPEC1 h2, #SPEC1 .h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 600;
+  text-align: center;
+}
+#SPEC1 h2 span, #SPEC1 .h2 span {
+  color: #ffb03b;
+}
+#SPEC1 .p1 {
+  text-align: center;
+  font-size: 17px;
+}
+#SPEC1 h3, #SPEC1 .h3 {
+  font-family: "Satisfy", cursive;
+}
+#SPEC1 a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 20px;
+}
+#SPEC1 a:hover {
+  color: #ffb03b;
 }
 
 /*# sourceMappingURL=app.css.map */
