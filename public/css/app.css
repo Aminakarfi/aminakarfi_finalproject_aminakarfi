@@ -12281,4 +12281,22 @@ footer .d2 .d1:hover {
   opacity: 0.5;
 }
 
+.carou {
+  background-image: url(../img/testimonials-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.cars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.cars img {
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+}
+
 /*# sourceMappingURL=app.css.map */
