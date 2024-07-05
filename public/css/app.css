@@ -12139,33 +12139,80 @@ section h2 span, section .h2 span {
   display: flex;
   justify-content: center;
   gap: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
-.lighncontact .copy {
+
+.grand {
+  width: 80vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.grand .copy {
   display: flex;
   align-items: center;
   gap: 40px;
 }
-.lighncontact .copy i {
+.grand .copy i {
   border-radius: 50%;
   transition: 0.3s;
   padding: 15px;
   color: rgba(255, 160, 18, 0.634);
   background-color: #fff6d3;
 }
-.lighncontact .copy i:hover {
+.grand .copy i:hover {
   color: white;
   background-color: rgba(255, 160, 18, 0.897);
 }
 
-.grand {
+.full2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-}
-
-.mgrand {
   padding-top: 50px;
   padding-right: 50px;
   padding-left: 50px;
+}
+.full2 .fullfi {
+  display: flex;
+  gap: 2vw;
+}
+.full2 .fullfi textarea {
+  width: 62vw;
+  padding: 1vh 1vw;
+}
+
+.formf {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+.formf input {
+  width: 30vw;
+  padding: 1vh 1vw;
+}
+
+.inputinput {
+  width: 62vw;
+  padding: 1vh 1vw;
+}
+
+.buttbut {
+  text-align: center;
+}
+.buttbut button {
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 20px;
+  background-color: rgba(255, 160, 18, 0.897);
+  border: none;
+}
+.buttbut button:hover {
+  background-color: rgb(255, 160, 18);
 }
 
 /*# sourceMappingURL=app.css.map */
